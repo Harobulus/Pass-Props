@@ -8,6 +8,8 @@ The JSX returned should consist of:
     - a h2 element with className attribute of "name" and the inner text of your name
 */
 
+
+
 const NameTag = (props) => (
   <div className="name-tag">
     <h3 className="title">HELLO</h3>
@@ -15,6 +17,8 @@ const NameTag = (props) => (
     <h2 className="name">{props.name}</h2>
   </div>
 );
+
+
 
 /* export our functional component definition to be 
 imported then rendered within another module */
