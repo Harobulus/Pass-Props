@@ -19,10 +19,3 @@ const App = () => {
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 
-// const NameTagElements = props.namesData.map(renderNameTag)
-    // <NameTag name="John Smith" />
-    // <NameTag name="Jane Doe" />
-    // <NameTag name="Bob Jones" />
-    // <NameTag name="Sarah Lee" />
-    // <NameTag name="Mike Chen" />
-    // <NameTag name="Emily Wang" />
